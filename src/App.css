@@ -1,0 +1,43 @@
+.App {
+  /*text-align: center;*/
+  min-height: 100vh;
+  background: white;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 40vmin;
+}
+.search-bar{
+  z-index: 99;
+  position:sticky;
+  background: #FFF;
+  top: 0; left: 0; width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+.App-recommendation{
+  border-bottom: 1px solid #ccc;
+}
+
+.App-recommendation-title{
+  margin-left:10px;
+  margin-top:10px;
+  /*color: #22cfff;*/
+}
+.App-listing-title{
+  margin-left:10px;
+  margin-top:10px;
+}
+
+
